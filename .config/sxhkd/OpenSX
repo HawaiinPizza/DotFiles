@@ -1,0 +1,48 @@
+
+# make sxhkd reload its configuration files:
+alt + Tab
+	pkill -USR1 -x sxhkd 
+
+#{{{Spawn shit
+#Spawn Tmux
+alt + shift + a
+	st -e tmux attach
+
+# Spawm File Manager
+alt + r
+	st -e nnn
+
+# spawm tranmission-remote-cli
+alt + shift + b
+	st -e transmission-remote-cli
+
+# Spawm vimwiki
+alt + v
+	st -e vim -c "VimwikiIndex"
+# Newsboat
+alt + n
+	urxvt -e newsboat
+#}}}
+#
+#Multimedia shit{{{
+#
+
+# Audio
+alt + {minus, equal}
+	pulsemixer --change-volume {-5, +5}
+
+
+# Light
+alt + shift +  {minus, plus}
+	light {-U 5,-A 5} 
+
+# Pass word shit
+alt  + y
+	passmenu
+
+# Rofi Show
+alt + shift + space
+	rofi -show window
+
+
+# }}}

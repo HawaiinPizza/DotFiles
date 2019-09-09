@@ -1,0 +1,2 @@
+defyn SURFRAW_graphical yes
+def SURFRAW_graphical_browser qutebrowser
