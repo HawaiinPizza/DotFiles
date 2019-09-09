@@ -1,0 +1,12 @@
+id,description,due,entry,mask,modified,project,recur,status,tags/0,uuid,urgency,imask,parent
+1,Push commit for SFFM,2019-09-03T04:00:00+00:00,2019-08-25T21:36:59+00:00,-,2019-08-25T21:37:01+00:00,Github,biweekly,recurring,SFFM,f627a3c7-859e-4280-9334-daf9e9b47769,7.25454,,
+2,Push commit for Wiki,2019-09-03T04:00:00+00:00,2019-08-25T21:36:59+00:00,-,2019-08-25T21:37:01+00:00,Github,biweekly,recurring,Wiki,e95e57ee-ed80-44ad-b34a-281bb4560efc,7.25454,,
+3,Read 2 chapters Math,2019-09-06T04:00:00+00:00,2019-08-25T21:36:59+00:00,-,2019-08-25T21:50:43+00:00,Apoth,biweekly,recurring,Math,2a2d2769-05e9-4a11-b78e-c34d516e2804,5.88311,,
+4,Read 2 chapters CIS,2019-09-06T04:00:00+00:00,2019-08-25T21:36:59+00:00,-,2019-08-25T21:50:44+00:00,Apoth,biweekly,recurring,CIS,017e61f3-60f1-4642-9df8-3013d7087678,5.88311,,
+5,Read physics chapters,2019-08-26T04:00:00+00:00,2019-08-25T21:36:59+00:00,,2019-08-25T21:36:59+00:00,Research,,pending,Read,33ffae61-fb9f-4602-8ca5-c99ad8a9e5b2,10.9117,,
+6,Push commit for SFFM,2019-09-03T04:00:00+00:00,2019-08-25T21:37:01+00:00,,2019-08-25T21:36:59+00:00,Github,biweekly,pending,SFFM,f69ea589-5a55-485c-8629-c21362169b88,7.25454,False,f627a3c7-859e-4280-9334-daf9e9b47769
+7,Push commit for Wiki,2019-09-03T04:00:00+00:00,2019-08-25T21:37:01+00:00,,2019-08-25T21:36:59+00:00,Github,biweekly,pending,Wiki,8e414e66-1de4-4e70-8f64-1e091a127da3,7.25454,False,e95e57ee-ed80-44ad-b34a-281bb4560efc
+8,Push commit for Rogue,2019-09-03T04:00:00+00:00,2019-08-25T21:37:01+00:00,,2019-08-25T21:47:11+00:00,Github,biweekly,pending,Rogue,6fed96a3-6262-4854-924e-b65c573c913e,7.25454,False,3a9bc5fb-89ba-4701-a67c-4bce27d4d8cf
+9,Read 2 chapters Math,2019-09-06T04:00:00+00:00,2019-08-25T21:37:01+00:00,,2019-08-25T21:50:41+00:00,Apoth,biweekly,pending,Math,ec73970f-c298-4a9c-91b8-6e3d0c2dc739,5.88311,False,2a2d2769-05e9-4a11-b78e-c34d516e2804
+10,Read 2 chapters CIS,2019-09-06T04:00:00+00:00,2019-08-25T21:37:01+00:00,,2019-08-25T21:50:43+00:00,Apoth,biweekly,pending,CIS,b3fc9fc2-73df-4bfd-a304-b6394f5f5da6,5.88311,False,017e61f3-60f1-4642-9df8-3013d7087678
+11,First day of school,2019-09-04T04:00:00+00:00,2019-08-25T21:51:29+00:00,,2019-08-25T21:51:29+00:00,School,,pending,Misc,a1d0f208-cd49-4aaf-af96-d041548e8d20,6.7974,,

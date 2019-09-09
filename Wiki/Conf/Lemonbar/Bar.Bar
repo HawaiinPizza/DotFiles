@@ -1,0 +1,37 @@
+#!/usr/bin/bash
+
+# Define the clock
+Clock() {
+        DATETIME=$(date "+%a %b %d, %T")
+
+        echo -n "$DATETIME"
+}
+
+Volume(){
+		volStatus=$(amixer get Master | tail -n 1 | cut -d '[' -f 4 | sed 's/].*//g')
+		volLevel=$(amixer get Master | tail -n 1 | cut -d '[' -f 2 | sed 's/%.*//g')
+		# is alsa muted or not muted?
+		if [ "$volStatus" == "on" ]
+		then
+			echo "%{Fyellowgreen} $volLevel %{F-}"
+		else
+			# If it is muted, make the font red
+			echo "%{Findianred} $volLevel %{F-}"
+		fi
+}
+
+Network(){
+	nmcli device status | sed -n 2p | sed 's/\w* *//' | sed 's/\w* *//' | sed 's/\w* *//'
+}
+
+Herbsclient(){
+	herbstclient tag_status | sed 's/\t//' | sed 's/\t/ /g' | sed 's/\.\w *//g'
+}
+
+# Print the clock
+
+while true; do
+	echo "%{c}%{F#FFFF00}%{B#0000FF} $(acpi) $(Clock) $(Volume) $(Network)%{F-}%{B-}"
+
+        sleep 1
+done

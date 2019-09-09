@@ -1,0 +1,7 @@
+ls /home/zaki/Wiki/Conf/Mang/Scripts/Sound/ | sort -R | read file
+x=$((60*$1))
+
+tm $x
+dunstify $2
+
+clear

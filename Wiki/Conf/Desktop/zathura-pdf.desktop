@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=zathura
+Comment=Pdf reader
+TryExec=zathura  --mode=fullscreen
+Icon=zathura
+MimeType=application/pdf;
+

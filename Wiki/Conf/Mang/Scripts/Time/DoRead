@@ -1,0 +1,15 @@
+ls /home/zaki/Wiki/Conf/Mang/Scripts/Sound/ | sort -R | read file
+x=$((60*$1))
+
+tm $x
+xbacklight -set 0
+mpv --no-resume-playback --volume=50 /home/zaki/Wiki/Conf/Mang/Scripts/Sound/$file
+
+echo "Ok zaki it's time to read"
+read shit
+x=$((60*$2))
+tm $x 
+xbacklight -set 1
+mpv --no-resume-playback --volume=50 /home/zaki/Wiki/Conf/Mang/Scripts/Sound/$file
+
+clear

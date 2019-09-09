@@ -1,0 +1,20 @@
+#/usr/bin/sh
+clear
+Todo=/home/zaki/Wiki/Notes/BigTodo.otl
+CalPath=/home/zaki/.calcurse/
+apts=$CalPath"apts"
+TMP=$(mktemp)
+ag --nocolor '@.*' $Todo | sed 's/.*://' | sed 's/[[:space:]]*//' | sed 's/\[_] /\n/g' | sed 's/:space:*//'  | sed '/^$/d' | sed 's/\w*% //' > $TMP
+
+sed -i "/\[0\]/d" $apts
+
+
+while read Line
+do
+	#09/09/2019 [0] Call Sleep doctor
+	Date=$(echo $Line | sed 's/.*@//' | sed 's/[[:space:]].*//' | sed 's/-/\//g')
+	Descript=$(echo $Line | sed 's/@.*//')
+	echo "$Date [0] $Descript" >> $apts
+
+done < $TMP
+cat $apts

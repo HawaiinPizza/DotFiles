@@ -1,0 +1,13 @@
+ls /home/zaki/Wiki/Conf/Mang/Scripts/Sound/ | sort -R | read file
+
+tm $1 m
+mpv --no-resume-playback --volume=50 /home/zaki/Wiki/Conf/Mang/Scripts/Sound/$file
+
+dunstify "Hey take it easy"
+
+tm $2  m
+xbacklight -set 0 
+mpv --no-resume-playback --volume=50 /home/zaki/Wiki/Conf/Mang/Scripts/Sound/$file
+
+dunstify "Slaves get your ass back ehre!"
+clear

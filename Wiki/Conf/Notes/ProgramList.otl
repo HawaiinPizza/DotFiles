@@ -1,0 +1,112 @@
+Window Manager
+	bspwm
+		Manual
+		using sxhkd, inspiration of my current setup.
+		Has swiping capabilities, very good
+	ratpoison
+		Manual?
+		Very unorthodox
+		Best to think of it not as a tiling window manager like i3, and more like an emacs editor. 
+			I've been wanting a window manager to behavior like this.
+		Has window manager switching capabilities. IDK why
+	dwm
+		dynamic
+		Patches are very nice mods, but can be difficult to install. 
+		Statusbar is very nice.
+		
+	awesome
+	i3
+	herbstluftwm
+	openbox
+	icewm
+	fluxbox
+	blackbox
+	2bwm
+	ion3
+	pawm
+
+Terminal Multiplexer
+	Tmux
+	screen
+	dvtm
+
+Terminal Emulator
+	urxvt
+	uxterm
+	termite
+	cool-retro-term
+	st
+	kitty
+	tilix
+	sakura
+	yaft (For tty only)
+	hyper
+	kmscon
+
+
+Time mangment program
+	khal
+	calcurse
+	timewarrior
+	remind
+	when
+Calcautor
+	bc
+	calc
+	genius
+	qalculate
+	speedcrunch
+
+Emualtion
+	higan
+		SNES NES GB GBC GBA emualtor
+	gen-gs
+		geneises emualtor
+	vbam-wx
+		GBA Emualtor
+	
+
+Utilities
+	LIst
+		https://wiki.archlinux.org/index.php/Core_utilities
+	coreuitls
+		https://www.gnu.org/software/coreutils/manual/coreutils.html
+		https://www.pixelbeat.org/docs/coreutils-gotchas.html
+	moreutils
+		http://joeyh.name/code/moreutils/
+	Calcautor
+		https://wiki.archlinux.org/index.php/List_of_applications/Science#Calculator
+	TSP
+		Task spooler
+		https://www.youtube.com/watch?v=WiP1OM7Kf10: To make multiple queues
+
+
+
+Misc
+	figlet:
+		banner generator
+	
+
+Suckelss
+	sent:
+		presetination tool
+
+Textedtior
+	Console
+		vim
+		neovim
+		kakourne
+		micro
+	Graphical
+		emacs
+		Atom
+		Brackets
+		sublime
+		enki
+Downloader
+	youtube-dl
+		download youtube videos
+	bandcamp
+		bandcamp-dl: Has to download each link indivuallauly
+		campdown: donwload entire page, but cna mis some
+

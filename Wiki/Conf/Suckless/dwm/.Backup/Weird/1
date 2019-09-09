@@ -1,0 +1,3 @@
+mkdir: cannot create directory ‘/tmp/SHIT’: File exists
+mkdir: cannot create directory ‘2’: File exists
+mkdir: cannot create directory ‘/dev/null’: File exists

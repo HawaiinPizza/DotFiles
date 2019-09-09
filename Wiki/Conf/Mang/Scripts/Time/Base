@@ -1,0 +1,8 @@
+ls /home/zaki/Wiki/Conf/Mang/Scripts/Sound/ | sort -R | read file
+x=$((60*$1))
+
+tm $x
+mpv --no-resume-playback --volume=50 /home/zaki/Wiki/Conf/Mang/Scripts/Sound/$file
+dunstify $2 "$3"
+
+clear
