@@ -1,0 +1,53 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/zaki/Wiki/Projects/" . "Misc Scripts/")
+ ("/home/zaki/Wiki/Work/School/" . "Phil/")
+ ("/home/zaki/Wiki/Work/" . "School/")
+ ("/home/zaki/Wiki/" . "Work/")
+ ("/home/zaki/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/zaki/"
+ "/home/zaki/Wiki/Projects/Misc Scripts/"
+ "/home/zaki/TempStuff/"
+ "/home/zaki/Wiki/Work/School/Phil/"
+ "/home/zaki/Wiki/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "Emacs.org"
+ "Rstudio.R"
+ "Lecture2.org"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/zaki/" (23926 40121 647884 254000) ".local/" ".terminfo/" "sxhkdrc" "mpv-shot0002.jpg" ".viminfo" "Hacknet.v5.022.rar" ".gcalcli_oauth" "Mount/" "mpv-shot0042.jpg" "mpv-shot0103.jpg" ".esd_auth" "mpv-shot0085.jpg" "mpv-shot0081.jpg" ".viminfx.tmp" ".oh-my-zsh/" ".hyper.js" ".wine/" ".todotxt-machinerc" ".notmuch-config" ".pki/" ".todo.db" ".npm/" ".alarm/" ".w3m/" "mpv-shot0027.jpg" "mpv-shot0020.jpg" "ALL.png" "mpv-shot0059.jpg" "Emacs/" "Wallpaper/" "mpv-shot0112.jpg" ".vegas/" "mpv-shot0058.jpg" ".zsh_history" ".wingtask_certs/" "mpv-shot0083.jpg" "Senran International Academy - New Wave - 2014-10-13.zip" ".vim/" "mpv-shot0101.jpg" "mpv-shot0074.jpg" ".stack/" "mpv-shot0072.jpg" "mpv-shot0098.jpg" "mpv-shot0071.jpg" "mpv-shot0092.jpg" ".maxima/" ".gcal_credentials.pickle" "mpv-shot0113.jpg" "surf-bookmarks-20170722-723ff26.diff" ".Xauthority" "mpv-shot0057.jpg" ".cfg/" ".cabal/" "OmarGayshit/" "mpv-shot0023.jpg" "mpv-shot0035.jpg" ".gmrun_history" "mpv-shot0080.jpg" ".neomuttrc" ".Rhistory" ".steampid" ".fop/" "Temp" "mpv-shot0012.jpg" ".mbsyncrc" "mpv-shot0034.jpg" ".pomo/" ".PlayOnLinux/" ".wget-hsts" ".viminfw.tmp" "mpv-shot0030.jpg" ".task/" ".vim_w3m_hist" ".calcurse/" "mpv-shot0063.jpg" ".electron/" ".pypanelrc" "mpv-shot0025.jpg" ".xinitrc" "mpv-shot0115.jpg" ".moc/" ".profile" "mpv-shot0010.jpg" "mpv-shot0049.jpg" "mpv-shot0111.jpg" ".hyper_plugins/" "mpv-shot0100.jpg" ".xmonad/" ".dtask" ".timewarrior/" "mpv-shot0061.jpg" "mpv-shot0062.jpg" ".elementary/" ".vifm-Trash-0/" "Doom/" ".FBReader/" "R/" "mpv-shot0110.jpg" "mpv-shot0117.jpg" ".bash_logout" ".vimrc" ".texlive/" ".icewm/" "mpv-shot0082.jpg" "mpv-shot0005.jpg" ".BothAlias.sh" "mpv-shot0054.jpg" "mpv-shot0073.jpg" ".npm-packages/" ".emacs.d/" "mpv-shot0069.jpg" "mpv-shot0004.jpg" "mpv-shot0008.jpg" ".aegisub/" "mpv-shot0018.jpg" ".themes/" ".xprofile" ".stumpwmrc" ".castgetrc" "mpv-shot0022.jpg" ".stardict/" ".swp" "mpv-shot0047.jpg" ".weechat/" ".history" ".Bothrc.sh" ".java/" ".urxvt/" ".node-gyp/" ".when/" "mpv-shot0064.jpg" ".zcompdump" ".vifm-Trash-1000/" "mpv-shot0003.jpg" "mpv-shot0088.jpg" "mpv-shot0105.jpg" "mpv-shot0093.jpg" ".mutt/" ".todo2" ".screenrc" "mpv-shot0065.jpg" ".dwm/" "mpv-shot0089.jpg" ".cdmrc" "mpv-shot0021.jpg" "ALL.xcf" ".mailcap" ".steam/" ".spacemacs" ".rstudio-desktop/" ".mono/" ".Wow/" ".config/" ".mcedit/" "Trash/" "mpv-shot0017.jpg" ".lyxauth" "mpv-shot0040.jpg" ".bash_profile" "mpv-shot0078.jpg" "mpv-shot0106.jpg" ".notion/" "mpv-shot0044.jpg" ".taskrc.orig" ".fim_history" "mpv-shot0043.jpg" "mpv-shot0028.jpg" "Wiki/" "mpv-shot0029.jpg" "mpv-shot0076.jpg" ".zshrc.zni" ".steampath" ".minecraft/" ".~lock.Turn-In Template-1-1.docx#" ".BothFunctions.sh" ".taskrc" ".your_shell_rc" ".ncmpcpp/" ".Trash-1000/" "mpv-shot0075.jpg" ".sc-iminfo" ".dbus/" "mpv-shot0016.jpg" "mpv-shot0070.jpg" ".gtkrc-2.0" ".emacs" "mpv-shot0102.jpg" ".technic/" "Music/" ".cache/" "mpv-shot0095.jpg" "mpv-shot0036.jpg" ".XTerm" ".git-credentials" "mpv-shot0050.jpg" ".gitconfig" ".npmrc" ".bash_history" ".xmobar/" ".todo/" "mpv-shot0013.jpg" ".newsboat/" "mpv-shot0116.jpg" "mpv-shot0031.jpg" ".conan/" ".lincity-ng/" "mpv-shot0104.jpg" "mpv-shot0067.jpg" "mpv-shot0045.jpg" ".ICEauthority" "mpv-shot0053.jpg" ".surf/" "Torrents/" ".inthe.am" "mpv-shot0046.jpg" "mpv-shot0052.jpg" "mpv-shot0011.jpg" ".#.emacs" ".bashrc" ".calc_history" ".ratpoisonrc" "mpv-shot0066.jpg" "mpv-shot0055.jpg" "mpv-shot0096.jpg" ".tmux.conf" ".electron-gyp/" ".alarmj/" "mpv-shot0037.jpg" ".ratpoison_history" "mpv-shot0015.jpg" "mpv-shot0009.jpg" "mpv-shot0060.jpg" "mpv-shot0041.jpg" "mpv-shot0051.jpg" "mpv-shot0039.jpg" ".ipython/" ".fehbg" ".scim/" ".ideas.json" ".todo2~" "mpv-shot0038.jpg" "mpv-shot0007.jpg" ".taskbook.json" ".icons/" "TempStuff/" "1567484145244.jpg" "mpv-shot0108.jpg" "#.emacs#" ".dnote/" ".gcalclirc" "mpv-shot0032.jpg" ".Pack/" ".emacs~" "Mike McShaffry, David Graham - Game Coding Complete, Fourth Edition (2012, Cengage Learning PTR).mobi" "mpv-shot0056.jpg" ".viminfy.tmp" ".bro" ".gnupg/" ".~lock.Turn-In Template-1.docx#" ".Xresources" ".lesshst" ".gvimrc" "mpv-shot0099.jpg" ".tmux/" ".mozilla/" "mpv-shot0090.jpg" "DumbShit/" "mpv-shot0094.jpg" ".jrnl_config" "mpv-shot0077.jpg" "mpv-shot0024.jpg" ".zhistory" ".viminfo.tmp" ".thumbnails/" ".tcelldb" "mpv-shot0014.jpg" "mpv-shot0084.jpg" "mpv-shot0033.jpg" "mpv-shot0107.jpg" ".adom.data/" "mpv-shot0001.jpg" "mpv-shot0026.jpg" "mpv-shot0019.jpg" "mpv-shot0091.jpg" ".xmonad.orig/" ".irssi/" ".histfile" ".pulse-cookie" ".eureka/" ".doom.d/" ".gcalcli_cache" ".zshrc" ".nicotine/" ".byobu/" ".subversion/" ".yarnrc" ".SoulseekQt/" ".castget/" ".mplayer/" ".pymux.conf" "mpv-shot0048.jpg" ".taskbook/" ".lyrics/" ".password-store/" ".Xmodmap" "mpv-shot0114.jpg" "mpv-shot0087.jpg" "mpv-shot0068.jpg" "mpv-shot0086.jpg" "mpv-shot0109.jpg" ".ghc/" ".wxMaxima" "mpv-shot0079.jpg" ".backup/" ".fltk/" ".fluxbox/" "mpv-shot0097.jpg" ".viminfz.tmp" "mpv-shot0006.jpg" ".gem/" "../" "./")
+
+ ("/home/zaki/TempStuff/" (23926 38117 691620 890000) ".#Rstudio.R" "#Rstudio.R#" "../" "./")
+
+ ("/home/zaki/Wiki/Projects/Misc Scripts/" (23925 4333 228255 800000) "../" "TmuxAttach.sh" "./" ".git/" ".Temp/" "Youtube.rss" "calcurse/" "README.md" "Youtube2Rss.sh" "Read.txt" "vimScript")
+
+ ("/home/zaki/Wiki/Projects/" (23913 14290 453692 238000) "../" "Misc Scripts/" "SFFM/" "./" "Rogue/" "Visual-Editor/" "Wiki/" "Youtube/")
+
+ ("/home/zaki/Wiki/Work/School/Phil/" (23926 30471 793333 522000) "../" "Lecture2.org~" "./" "Lecture.md" "Lecture.pdf" "Lecture2.org" "..pdf")
+
+ ("/home/" (23868 33711 590002 523000) "../" "zaki/" "./")
+
+ ("/home/zaki/.emacs.d/" (23926 23334 629063 977000) "../" "auto-save-list/" "eshell/" "url/" "./" "ido.last" "ido.last~" "elpa/")
+
+ ("/home/zaki/Wiki/Work/School/" (23921 34064 159107 80000) "../" "./" "Phil/" "SoftEng/" "LinAlg/" "DataSci/")
+
+ ("/home/zaki/Wiki/Work/" (23918 28338 632657 497000) "../" "School/" "./" "Research/")
+
+ ("/home/zaki/Wiki/" (23914 50645 7680 214000) "Work/" "../" ".Secret/" "Play/" "./" "Apoth/" "Conf/" "Projects/" "Notes/" ".Projects.zip" "Books/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
